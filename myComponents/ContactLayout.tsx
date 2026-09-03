@@ -15,8 +15,8 @@ export default function ContactLayout() {
     {
       name: "WhatsApp Direct",
       label: "Order & Consult Live",
-      value: "+234 XX XXX XXXX",
-      href: `https://wa.me{encodedWhatsappMsg}`,
+      value: "+234 703 438 2723",
+      href: `https://wa.me/2347034382723?text=${encodedWhatsappMsg}`,
       icon: FaWhatsapp,
       colorClass: "hover:text-emerald-400 hover:border-emerald-500/30",
       bgGlow: "group-hover:bg-emerald-500/5",

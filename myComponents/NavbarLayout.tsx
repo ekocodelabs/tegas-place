@@ -30,6 +30,8 @@ export default function NavbarLayout() {
     { label: "Home", href: "/" },
     { label: "Our Heritage", href: "#about" },
     { label: "Shop Remedies", href: "#shop" },
+    { label: "Price List", href: "/pricelist" },
+    { label: "Reviews", href: "#reviews" },
     { label: "Contact Us", href: "#contact" },
   ];
 
@@ -37,7 +39,7 @@ export default function NavbarLayout() {
   const encodedWhatsappMsg = encodeURIComponent(
     "Hello Tegas Place, I am visiting your website and would love to learn more about your premium spices and master herbalist consultations.",
   );
-  const whatsappUrl = `https://wa.me{encodedWhatsappMsg}`;
+  const whatsappUrl = `https://wa.me/2347034382723?text=${encodedWhatsappMsg}`;
 
   return (
     <>
@@ -75,10 +77,7 @@ export default function NavbarLayout() {
 
           {/* 3. Desktop Action Trigger */}
           <div className="hidden md:block">
-            <Button
-              size="sm"
-              className="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-full px-5 transition-all duration-300 flex items-center gap-2"
-            >
+            <Button className="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-full px-7 py-7 transition-all duration-300 flex items-center gap-2">
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                 <FaWhatsapp className="text-base" />
                 <span>Consult Live</span>

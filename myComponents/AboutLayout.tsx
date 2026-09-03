@@ -42,7 +42,7 @@ export default function AboutLayout() {
               loop
               muted
               playsInline
-              poster="/images/aboutimage.jpg"
+              poster="/images/aboutimage2.jpg"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             >
               <source src="/images/herbalbanner2.mp4" type="video/mp4" />
@@ -137,7 +137,7 @@ export default function AboutLayout() {
           {/* Decorative Background Asset Reference Requirement */}
           <div className="absolute right-0 bottom-0 opacity-5 hidden xl:block pointer-events-none">
             <Image
-              src="/images/aboutimage.jpg" // Monochromatic herb sketch inside public/images
+              src="/images/aboutimage3.jpg" // Monochromatic herb sketch inside public/images
               alt="Herbal Illustration"
               width={350}
               height={350}

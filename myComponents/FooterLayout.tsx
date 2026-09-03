@@ -33,10 +33,10 @@ export default function Footer() {
               About Heritage
             </Link>
             <Link
-              href="#shop"
+              href="/pricelist"
               className="hover:text-amber-400 transition-colors duration-200"
             >
-              Shop Remedies
+              Price List
             </Link>
             <Link
               href="#contact"

@@ -15,7 +15,7 @@ const featuredProductsData = [
     price: 15000,
     formattedPriceString: "15k",
     category: "Holistic Remedies",
-    imagePath: "/images/products/infection-flush.jpg", // Local image pathway within public folder
+    imagePath: "/images/infectionpic.jpg", // Local image pathway within public folder
   },
   {
     id: "detox-drk",
@@ -23,7 +23,7 @@ const featuredProductsData = [
     price: 12000,
     formattedPriceString: "12k",
     category: "Wellness Teas",
-    imagePath: "/images/products/detox-drink.jpg",
+    imagePath: "/images/detoxpic.jpg",
   },
   {
     id: "weight-loss",
@@ -31,7 +31,7 @@ const featuredProductsData = [
     price: 15000,
     formattedPriceString: "15k",
     category: "Organic Slimming",
-    imagePath: "/images/products/weight-loss-drink.jpg",
+    imagePath: "/images/weightlosspic.jpg",
   },
   {
     id: "men-stamina",
@@ -39,7 +39,7 @@ const featuredProductsData = [
     price: 15000,
     formattedPriceString: "15k",
     category: "Vitality Boosters",
-    imagePath: "/images/products/men-stamina-tea.jpg",
+    imagePath: "/images/men stamina.jpg",
   },
 ];
 
@@ -89,7 +89,7 @@ export default function ProductsLayout() {
             size="lg"
             className="group bg-transparent hover:bg-amber-500 border border-amber-500/50 hover:border-amber-500 text-amber-400 hover:text-zinc-950 font-semibold px-8 py-6 rounded-full transition-all duration-300 text-base flex items-center justify-center gap-2"
           >
-            <Link href="/products">
+            <Link href="/pricelist">
               <span>View All Holistic Products</span>
               <FaArrowRight className="text-sm transition-transform duration-300 group-hover:translate-x-1" />
             </Link>

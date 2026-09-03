@@ -24,7 +24,7 @@ export default function ProductCard({
   const whatsappMessage = encodeURIComponent(
     `Hello Tegas Place, I am interested in purchasing your premium "${title}" priced at ₦${price.toLocaleString()}. Please let me know how to proceed with payment and delivery.`,
   );
-  const whatsappUrl = `https://wa.me{whatsappMessage}`; // Replace with actual WhatsApp configuration number
+  const whatsappUrl = `https://wa.me/2347034382723?text=${whatsappMessage}`; // Replace with actual WhatsApp configuration number
 
   return (
     <div className="group relative bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden transition-all duration-300 hover:border-amber-500/40 hover:shadow-xl hover:shadow-emerald-950/20 flex flex-col h-full">
@@ -69,7 +69,7 @@ export default function ProductCard({
           {/* Quick Order Component trigger matching shadcn style */}
           <Button
             size="sm"
-            className="bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white rounded-full transition-all duration-300 px-4 flex items-center gap-1.5 border border-zinc-700/60 hover:border-emerald-500"
+            className="bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white transition-all duration-300 px-8 py-8 flex items-center gap-1.5 border border-zinc-700/60 hover:border-emerald-500"
           >
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="text-sm" />
