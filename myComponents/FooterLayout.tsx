@@ -71,9 +71,14 @@ export default function Footer() {
           {/* Technical Developer Attribution Block */}
           <div className="text-zinc-600 sm:text-right font-sans">
             Crafted with precision by{" "}
-            <span className="text-zinc-400 hover:text-amber-400 transition-colors duration-200 cursor-pointer font-medium">
+            <a
+              href="https://ekocodelabs.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-400 hover:text-amber-400 transition-colors duration-200 cursor-pointer font-medium"
+            >
               Ekocodelabs
-            </span>
+            </a>
           </div>
         </div>
       </div>
